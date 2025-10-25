@@ -251,6 +251,24 @@
               "minimum": 0,
               "maximum": 100
             },
+            "defaultHue": {
+              "type": "number",
+              "title": "${config.title.defaultHue}",
+              "minimum": 0,
+              "maximum": 360
+            },
+            "defaultSaturation": {
+              "type": "number",
+              "title": "${config.title.defaultSaturation}",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "defaultColorTemperature": {
+              "type": "number",
+              "title": "${config.title.defaultColorTemperature}",
+              "minimum": 0,
+              "maximum": 10000
+            },
             "defaultOn": {
               "type": "number",
               "title": "${config.title.defaultState}",

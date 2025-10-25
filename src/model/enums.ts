@@ -7,7 +7,7 @@ export enum AccessoryType {
   Switch = 'Switch',
   Thermostat = 'Thermostat',
   Window = 'Window',
-  WindowCovering = 'WindowCovering'
+  WindowCovering = 'WindowCovering',
 }
 
 export enum SensorType {
@@ -97,6 +97,9 @@ export function isValidTemperatureUnits(input?: TemperatureUnits): boolean {
 
 export enum WebhookCommand {
   Brightness = 'Brightness',
+  Hue = 'Hue',
+  Saturation = 'Saturation',
+  ColorTemperature = 'ColorTemperature',
   LockTargetState = 'LockTargetState',
   On = 'On',
   TargetDoorState = 'TargetDoorState',

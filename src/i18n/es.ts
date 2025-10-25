@@ -20,6 +20,9 @@ const overrides = {
 
   lightbulb: {
     brightness: 'El brillo de %s es %d%',
+    hue: '%s hue is %d%', // accessory name, number
+    saturation: '%s saturation is %d%', // accessory name, number
+    colorTemperature: '%s color temperature is %d%', // accessory name, number
     stateOn: '%s está encendido, el brillo es %d%',
   },
 

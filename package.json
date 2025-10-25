@@ -4,18 +4,18 @@
   "displayName": "Homebridge Dummy",
   "description": "Create Homebridge accessories to help with automation and control — scheduling, delays, sensors, commands, webhooks, and more",
   "type": "module",
-  "version": "1.3.2",
-  "homepage": "https://github.com/mpatfield/homebridge-dummy#readme",
+  "version": "1.3.3-color-led-1",
+  "homepage": "https://github.com/ronniepettersson/homebridge-dummy#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mpatfield/homebridge-dummy.git"
+    "url": "https://github.com/ronniepettersson/homebridge-dummy.git"
   },
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/mpatfield"
   },
   "bugs": {
-    "url": "https://github.com/mpatfield/homebridge-dummy/issues"
+    "url": "https://github.com/ronniepettersson/homebridge-dummy/issues"
   },
   "main": "dist/homebridge/index.js",
   "scripts": {
@@ -47,7 +47,7 @@
   ],
   "engines": {
     "homebridge": "^1.8.0 || ^2.0.0-beta.0",
-    "node": "^18.20.4 || ^20.18.0 || ^22.10.0"
+    "node": "^18.20.4 || ^20.18.0 || ^22.10.0 || ^24.10.0"
   },
   "dependencies": {
     "@homebridge/plugin-ui-utils": "^2.0.2",

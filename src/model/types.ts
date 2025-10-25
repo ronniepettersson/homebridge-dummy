@@ -12,6 +12,9 @@ export type LegacyAccessoryConfig = AccessoryConfig & {
   name: string;
   dimmer?: boolean;
   brightness?: number;
+  hue?: number;
+  saturation?: number;
+  colorTemperature?: number;
   stateful?: boolean;
   reverse?: boolean;
   time?: number;
@@ -83,6 +86,9 @@ export type OutletConfig = OnOffConfig & {
 
 export type LightbulbConfig = OnOffConfig & {
   defaultBrightness?: CharacteristicValue,
+  defaultHue?: CharacteristicValue,
+  defaultSaturation?: CharacteristicValue,
+  defaultColorTemperature?: CharacteristicValue,
 }
 
 export type SwitchConfig = OnOffConfig & {

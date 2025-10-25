@@ -13,6 +13,9 @@ const en = {
 
   lightbulb: {
     brightness: '%s brightness is %d%', // accessory name, number
+    hue: '%s hue is %d%', // accessory name, number
+    saturation: '%s saturation is %d%', // accessory name, number
+    colorTemperature: '%s color temperature is %d%', // accessory name, number
     stateOn: '%s is on, brightness is %d%', // accessory name, number
   },
 
@@ -165,6 +168,9 @@ const en = {
       cron: 'Cron',
       cronCustom: 'Custom Cron',
       defaultBrightness: 'Default Brightness',
+      defaultHue: 'Default Hue',
+      defaultSaturation: 'Default Saturation',
+      defaultColorTemperature: 'Default Color Temperature',
       defaultPosition: 'Default Position',
       defaultState: 'Default State',
       defaultTemperature: 'Default Temperature',
