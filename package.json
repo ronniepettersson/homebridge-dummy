@@ -1,10 +1,10 @@
 {
-  "name": "homebridge-dummy",
+  "name": "@ronniepettersson/homebridge-dummy",
   "platform": "HomebridgeDummy",
   "displayName": "Homebridge Dummy",
   "description": "Create Homebridge accessories to help with automation and control — scheduling, delays, sensors, commands, webhooks, and more",
   "type": "module",
-  "version": "1.3.3-color-led-1",
+  "version": "1.3.3-color-led-2",
   "homepage": "https://github.com/ronniepettersson/homebridge-dummy#readme",
   "repository": {
     "type": "git",

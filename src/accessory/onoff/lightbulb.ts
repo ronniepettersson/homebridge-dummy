@@ -99,6 +99,21 @@ export class LightbulbAccessory extends OnOffAccessory<LightbulbConfig> {
           this.setBrightness(value);
           return strings.lightbulb.brightness.replace('%s', this.name).replace('%d', value.toString());
         }),
+      new Webhook(this.identifier, WebhookCommand.Hue,
+        (value) => {
+          this.setHue(value);
+          return strings.lightbulb.hue.replace('%s', this.name).replace('%d', value.toString());
+        }),
+      new Webhook(this.identifier, WebhookCommand.Saturation,
+        (value) => {
+          this.setSaturation(value);
+          return strings.lightbulb.saturation.replace('%s', this.name).replace('%d', value.toString());
+        }),
+      new Webhook(this.identifier, WebhookCommand.ColorTemperature,
+        (value) => {
+          this.setColorTemperature(value);
+          return strings.lightbulb.colorTemperature.replace('%s', this.name).replace('%d', value.toString());
+        }),
     ];
   }
 
